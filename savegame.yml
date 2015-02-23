@@ -8,7 +8,14 @@ grid:
     prev_pos: 
     color: b
     ever_moved: 
-  - 
+  - !ruby/object:Knight
+    board: *1
+    pos:
+    - 0
+    - 1
+    prev_pos: 
+    color: b
+    ever_moved: 
   - !ruby/object:Bishop
     board: *1
     pos:
@@ -73,7 +80,14 @@ grid:
     prev_pos: 
     color: b
     ever_moved: 
-  - 
+  - !ruby/object:Pawn
+    board: *1
+    pos:
+    - 1
+    - 2
+    prev_pos: 
+    color: b
+    ever_moved: 
   - !ruby/object:Pawn
     board: *1
     pos:
@@ -131,36 +145,9 @@ grid:
   - 
   - 
 - - 
-  - !ruby/object:Pawn
-    board: *1
-    pos:
-    - 4
-    - 1
-    prev_pos:
-    - 3
-    - 2
-    color: b
-    ever_moved: true
-  - !ruby/object:Pawn
-    board: *1
-    pos:
-    - 4
-    - 2
-    prev_pos:
-    - 6
-    - 2
-    color: w
-    ever_moved: true
-  - !ruby/object:Knight
-    board: *1
-    pos:
-    - 4
-    - 3
-    prev_pos:
-    - 2
-    - 2
-    color: b
-    ever_moved: true
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -181,9 +168,30 @@ grid:
     prev_pos: 
     color: w
     ever_moved: 
-  - 
-  - 
-  - 
+  - !ruby/object:Pawn
+    board: *1
+    pos:
+    - 6
+    - 1
+    prev_pos: 
+    color: w
+    ever_moved: 
+  - !ruby/object:Pawn
+    board: *1
+    pos:
+    - 6
+    - 2
+    prev_pos: 
+    color: w
+    ever_moved: 
+  - !ruby/object:Pawn
+    board: *1
+    pos:
+    - 6
+    - 3
+    prev_pos: 
+    color: w
+    ever_moved: 
   - !ruby/object:Pawn
     board: *1
     pos:

@@ -1,6 +1,6 @@
 # Ruby Chess
 
-## usage
+## Usage
 
 Please note Ruby Chess relies on the colorize gem in order to work.  Ensure this gem is installed before running.
 
